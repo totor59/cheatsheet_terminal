@@ -24,14 +24,10 @@ a {
 }
 /*---------MENU--------*/
 
-
 #logo {
 	font-weight: bold;
 	padding: 0.25px;
 	float: left;
-	height: 80px;
-}
-#icon {
 	height: 80px;
 }
 .menu {
@@ -40,7 +36,8 @@ a {
 }
 .menu a { padding: 0 10px;}
 .menu a:hover {color: #c6ff00;}
-
+											      
+			
 /*--------CONTAINER--------*/
 
 .container {
@@ -50,21 +47,11 @@ a {
 
 
 /*-------RESPONSIVE-------*/
+
+
 @media screen and (max-width: 460px){
-	#icon {
-		display:inline-block;
-		}
-	#logo {
-		display:none;	
-	}
-}
-@media screen and (min-width: 459px) {
-      	#icon {
+		a {
 		display: none;
+		}
 }
-	#logo {
-		display: inline-block;
-	}
-
-
 
