@@ -7,6 +7,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #AED581;
 }
 .header {
 	position: fixed;
@@ -48,12 +49,33 @@ a {
 .container {
 	padding-top: 66px;
 	margin: 0 20px;
+	text-align: center;
 }
 dl {
-	text-align:left;
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+dt {
+	font-family: 'Ubuntu';
+	font-weight: bold;
+}
+dd {
+	font-family: 'Ubuntu Mono';
+	background-color: black;
+	color: green;
+	padding: auto;
 }
 h2 {
 	font-family: "Ubuntu Condensed";
+	font-size: 30px;
+	font-style: Italic;
+	text-decoration: underline;
+}
+#gif {
+text-align: center;
 }
 
 /*---------UPBUTTON----------*/
@@ -79,4 +101,8 @@ h2 {
 		display: none;
 		}
 }
-
+@media screen and (max-width: 695px) {
+		img {
+		display: none;
+		}
+}
