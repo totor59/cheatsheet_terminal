@@ -10,6 +10,7 @@ html, body {
 }
 .header {
 	position: fixed;
+	top: 0;
 	left: 0;
 	right: 0;
 	height: 66px;
@@ -34,9 +35,11 @@ a {
 	position: absolute;
 	float:left
 }
-.menu a { padding: 0 10px;}
-.menu a:hover {color: #c6ff00;}
-											      
+#menu a { padding: 0 10px;}
+#menu a:hover {color: #c6ff00;}
+#ancre {
+	visibility: hidden;
+}
 			
 /*--------CONTAINER--------*/
 
@@ -44,6 +47,26 @@ a {
 	padding-top: 66px;
 	margin: 0 20px;
 }
+dl {
+	text-align:left;
+}
+h2 {
+	font-family: "Ubuntu Condensed";
+}
+
+/*---------UPBUTTON----------*/
+
+#button {
+	height: 25px;
+	position: fixed;
+	bottom : 1%;
+	right: 1%;
+}
+/*#uplink {
+	position: fixed;
+	bottom : 0;
+	right: 0;
+       }*/
 
 
 /*-------RESPONSIVE-------*/
